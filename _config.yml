@@ -1,0 +1,32 @@
+# SITE SETTINGS
+# replace with the name you want displayed on the bio (i.e. your name)
+name: Mahdi Kazemi Moghaddam
+# replace with your desired description
+description: Ph.D Candidate, Australian Institute for Machine Learning/ Australian Center for Robotic Vision
+# replace with keywords you want placed in the meta keywords section of the HTML header
+keywords: Machine Learning, Reinforcement Learning, Computer Vision, Visual Navigation
+# replace with your contact email (used for the email link in the foot
+email: mahdi.kazemimoghaddam@adelaide.edu.au
+# replace with the production URL of your bio site
+root_url: https://mahdi-kazemi-m.github.io
+# optionally replace with the name / extension of your image file
+# i.e if using perhaps a .jpg instead, the below should be changed to `profile.jpg`
+profile_image_file: 
+
+# Icon Links to display in the navbar as round icon buttons
+# options, leave empty and no extra buttons will appear in
+# the navbar
+navbar-links:
+  - fa-icon: linkedin
+    url: https://www.linkedin.com/mahdikazemim
+
+# Icon Links to display in the footer, leave empty and
+# just the email link will appear (which can be removed by
+# updating /_includes/footer.html)
+footer-links:
+  - fa-icon: github
+    url: https://mahdi-kazemi-m.github.io
+
+# Build settings
+sass:
+  sass_dir: css
